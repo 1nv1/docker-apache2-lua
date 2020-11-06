@@ -2,6 +2,10 @@
 
 Dockerfile to build an apache2-lua image
 
+## Documentation
+
+If you need information about how to create **lua-pages** go to this [link](https://httpd.apache.org/docs/trunk/mod/mod_lua.html).
+
 ## Basic
 
 ### Content
