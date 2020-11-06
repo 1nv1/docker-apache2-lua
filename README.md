@@ -14,3 +14,9 @@ Based on alpine:3.12 with the following packages:
 ```sh
 docker|podman build --tag <tag:version> .
 ```
+
+## Create container
+
+```sh
+docker|podman run --name <container-name> -v <pages-path>:/var/www/localhost/htdocs -p <port>:80 -dit <tag:version>
+```
